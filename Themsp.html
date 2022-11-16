@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/stye.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title mb">
+            <div>
+                <h1>Admin</h1>
+            </div>
+            <div>
+                <img src="./image/306093081_1218316425394802_5374457179339864368_n.jpg" alt="" width="50px">
+            </div>
+        </div>
+        <div class="conten">
+            <div class="menu ">
+                <div class="logo mt mb">
+                    <img src="./image/306093081_1218316425394802_5374457179339864368_n.jpg" alt="" width="50px">
+                </div>
+                <ul>
+                    <div class="mb">
+                        <li><a href="admin.html" class="px ">Trang chủ </a></li>
+                    </div>
+                    <div class="mb">
+                        <li><a href="adddanhmuc.html" class="px ">Danh mục</a></li>
+                    </div>
+                    <div class="mb">
+                        <li><a href="themsp.html" class="px ">Thêm sản phẩm</a></li>
+                    </div>
+                    <div class="mb">
+                        <li><a href="binhluan.html" class="px">Bình luân </a></li>
+                    </div>
+                    <div class="mb">
+                        <li><a href="khachhang.html" class="px">khách hàng</a></li>
+                    </div>
+                    <div class="mb">
+                        <li><a href="thongke.html" class="px">Thông kê</a></li>
+                    </div>
+                    <div class="mb">
+                        <li><a href="hoanthanhdh.html" class="px">Danh sách đơn hàng</a></li>
+                    </div>
+
+                </ul>
+            </div>
+
+            <div class="row ml-10 ">
+                <div class="row">
+                    <div class="row title">
+                        <h2>Thêm mới sản phẩm </h2>
+                    </div>
+                    <div class="row fromconten">
+                        <form action="index.php?act=addsp" method="post" enctype="multipart/form-data">
+                            <div class="row mb-10">
+                                Danh mục <br>
+                                <select name="iddm">
+                                    <option value="">cu</option>
+                                    <option value="">hanh</option>
+                                    <option value="">rau</option>
+
+                                </select>
+                            </div>
+                            <div class="row mb-10">
+                                Tên sản phẩm<br>
+                                <input type="text" name="tensp" required>
+                            </div>
+                            <div class="row mb-10">
+                                Gía<br>
+                                <input type="text" name="giasp" required>
+                            </div>
+                            <div class="row mb-10">
+                                Hình<br>
+                                <input type="file" name="hinh" required>
+                            </div>
+                            <div class="row mb-10">
+                                Mô tả<br>
+                                <textarea name="mota" cols="30" rows="10" required></textarea>
+                            </div>
+
+                            <div class="row mb-10">
+                                <input type="submit" name="themmoi" value="THÊM MỚI">
+                                <input type="submit" value="NHẬP LẠI">
+                                <a href="danhsachsp.html"><input type="button" value="danhsach"></a>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,183 @@
+.container {
+    margin: auto;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    background-color: rgba(128, 128, 128, 0.319);
+
+    border: 1px solid beige;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+
+}
+
+
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.title img {
+    border-radius: 100%;
+}
+
+h1 {
+    color: brown;
+    padding-top: 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.5s;
+
+    font-style: italic;
+    color: white;
+
+}
+
+
+
+.menu ul li a:hover {
+    color: rosybrown;
+    font-size: 20px;
+
+}
+
+.menu {
+    background-color: rgba(0, 0, 0, 0.545);
+    padding: 5px;
+    border-radius: 5px;
+    width: 20%;
+    height: 700px;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.px {
+    padding: 10px;
+}
+
+.conten {
+    display: flex;
+    grid-template-columns: repeat(1fr, 80%);
+}
+
+.mb {
+    margin-bottom: 10px;
+}
+
+.row {
+    width: 100%;
+
+}
+
+.title {
+    font-size: 31px;
+    font-style: italic;
+    color: rgb(225, 12, 168);
+
+}
+
+h1 {
+    font-size: 31px;
+    font-style: italic;
+    color: rgb(225, 12, 168);
+}
+
+.fromconten input[type="submit"],
+.fromconten input[type="button"],
+.fromconten input[type="reset"] {
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px #ccc solid;
+}
+
+.fromconten input[type="submit"]:hover,
+.fromconten input[type="button"]:hover,
+.fromconten input[type="reset"]:hover {
+    background-color: #ccc;
+}
+
+.fromconten input[type="text"] {
+    width: 98%;
+    padding: 5px 10px;
+    background-color: #eee;
+}
+
+.formloai td {
+    padding: 10px 20px;
+    border: 1px #ccc solid;
+}
+
+.formloai {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+.formloai th {
+
+    padding: 20px;
+    background-color: #ccc;
+}
+
+.formloai table {
+    width: 100%;
+}
+
+.logo img {
+    border-radius: 100%;
+
+}
+
+.logo {
+    text-align: center;
+}
+
+.mt {
+    margin-top: 10px;
+}
+
+.grid-clos-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+.bg-aliceblue {
+    background-color: aliceblue;
+}
+
+.px {
+    padding: 0 5px 0 5px;
+}
+
+.grid-clos-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.flex {
+    display: flex;
+}
+
+.float {
+    float: left;
+}

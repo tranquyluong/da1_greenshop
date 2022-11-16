@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/stye.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title mb">
+            <div>
+                <h1>Admin</h1>
+            </div>
+            <div>
+                <img src="./image/306093081_1218316425394802_5374457179339864368_n.jpg" alt="" width="50px">
+            </div>
+        </div>
+        <div class="conten">
+
+            <div class="menu ">
+                <div class="logo mt mb">
+                    <img src="./image/306093081_1218316425394802_5374457179339864368_n.jpg" alt="" width="50px">
+                </div>
+                <ul>
+                    <div class="mb">
+                        <li><a href="admin.html" class="px ">Trang chủ </a></li>
+                    </div>
+                    <div class="mb">
+                        <li><a href="adddanhmuc.html" class="px ">Danh mục</a></li>
+                    </div>
+                    <div class="mb">
+                        <li><a href="themsp.html" class="px ">Thêm sản phẩm</a></li>
+                    </div>
+                    <div class="mb">
+                        <li><a href="binhluan.html" class="px">Bình luân </a></li>
+                    </div>
+                    <div class="mb">
+                        <li><a href="khachhang.html" class="px">khách hàng</a></li>
+                    </div>
+                    <div class="mb">
+                        <li><a href="thongke.html" class="px">Thông kê</a></li>
+                    </div>
+                    <div class="mb">
+                        <li><a href="hoanthanhdh.html" class="px"> Đơn hàng</a></li>
+                    </div>
+
+                </ul>
+            </div>
+
+            <div class="row ml-10 ">
+
+                <div class="title mb">
+                    <h4>Thêm mới danh mục</h4>
+                </div>
+                <div class="row fromconten">
+                    <form action="index.php?act=adddm" method="post">
+                        <div class="row mb">
+                            Mã loại <br>
+                            <input type="text" name="maloai" disabled>
+                        </div>
+                        <div class="row mb">
+                            Tên loại <br>
+                            <input type="text" name="tenloai">
+                        </div>
+                        <div class="row mb">
+                            <input type="submit" name="themmoi" value="Thêm mới ">
+                            <input type="reset" value="Nhập lại ">
+                            <a href="danhsach _loaihang.html"><input type="button" value="Danh sách "></a>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
